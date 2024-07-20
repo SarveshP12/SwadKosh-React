@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+    background-color:  #e0e093;
+}
+
+.header {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color:  #e0e093;
+}
+
+.logo-content {
+    text-align: center; /* Center-aligns inline contents like images */
+}
+
+.logo-content img {
+    display: block; /* Makes the image a block-level element */
+    max-width: 100%;
+    height: auto;
+}
+
+.address-content i {
+    /* Style the 'Venue:' text as needed */
+    font-style: normal;
+    /* Add any other styling here */
+}

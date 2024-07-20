@@ -1,0 +1,25 @@
+.home-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.home-container img {
+  width: 100%;
+  height: auto;
+  transition: opacity 1s ease-in-out;
+}
+
+.home-container button {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: black;
+  border-radius: 5px;
+}
+
+.home-container button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  opacity: 1;
+}

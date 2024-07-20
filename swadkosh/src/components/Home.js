@@ -58,9 +58,8 @@ const Home = () => {
             top: '50%',
             transform: 'translateY(-50%)',
             zIndex: 100,
-            width:"10px"
           }}
-        ><img src='IMG\right-arrow.png' alt='Next' style={{width:'20px',}}/>
+        ><img src='IMG\left-arrow.png' alt='Next' style={{width:'20px',}}/>
         </button>
         <button
           onClick={handleNextClick}
@@ -69,8 +68,7 @@ const Home = () => {
             right: 0,
             top: '50%',
             transform: 'translateY(-50%)',
-            zIndex: 100,
-            width:"20px"
+            zIndex: 100
           }}
         ><img src='IMG\right-arrow.png' alt='Next' style={{width:'20px'}}/>
         </button>

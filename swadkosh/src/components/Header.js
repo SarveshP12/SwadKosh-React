@@ -10,7 +10,7 @@ const Header = (props) => {
       left: 0,
       width: "100%",
       zIndex: 1000,
-      backgroundColor:"black;" // Ensure it stays above other content
+      backgroundColor:"black;" 
     }}>
     <div className='mx-5'></div>
       <div className="flex justify-center">
